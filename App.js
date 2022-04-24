@@ -89,20 +89,20 @@ export default class App extends React.Component {
         <View>
           <TextInput
           style = {styles.entrada}
-          placeholder = "Código"
+          placeholder = "CÃ³digo"
           keyboardType="numeric"
           ref = {this.state.inputCodigo}
           onChangeText = {(codigo) => {this.setState({codigo})}} /* Pega o dado digitado no texto */
           />
           <TextInput 
           style = {styles.entrada}
-          placeholder = "Descrição"
+          placeholder = "DescriÃ§Ã£o"
           ref = {this.state.inputDescricao}
           onChangeText = {(descricao) => {this.setState({descricao})}}
           />
           <TextInput 
           style = {styles.entrada}
-          placeholder = "Preço"
+          placeholder = "PreÃ§o"
           keyboardType = "numeric"
           ref = {this.state.inputPreco}
           onChangeText = {(preco) => {this.setState({preco})}}
@@ -133,7 +133,7 @@ export default class App extends React.Component {
           <FlatList 
             data = {this.state.lista}
             renderItem = {({item}) => (
-              <Text style = {styles.item}> {'Codigo: ' + item.codigo + '\n Descrição: ' + item.descricao + '\n Preço: ' + item.preco + '\n Quantidade: ' + item.quantidade}
+              <Text style = {styles.item}> {'Codigo: ' + item.codigo + '\n DescriÃ§Ã£o: ' + item.descricao + '\n PreÃ§o: ' + item.preco + '\n Quantidade: ' + item.quantidade}
                   <br />
                     <div style={{ borderTop: "1px solid black"}}></div>
                   <br />

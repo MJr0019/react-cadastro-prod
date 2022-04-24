@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "react-cadastro-prod",
+    "slug": "snack-ebfb811f-46e3-4614-a15b-1277d419a983",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Cadastro de produtos é o segundo Trabalho de Programação Para Dispositivos Móveis em Android - 2022.1."
+  }
+}
