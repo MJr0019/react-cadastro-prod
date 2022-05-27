@@ -1,5 +1,5 @@
 @echo off
-cls
+@REM cls
 echo "==============  Construido o Projeto =============="
 echo "" >nul
 echo "" >nul    

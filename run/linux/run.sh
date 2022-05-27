@@ -1,4 +1,4 @@
-clear
+# clear
 printf "==============  Construido o Projeto =============="
 printf "\n"
 printf "\n"
